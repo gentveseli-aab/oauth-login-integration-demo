@@ -89,3 +89,16 @@ The same code also runs on any Node.js host that supports Next.js (e.g. Render, 
 - `.env.local` is git-ignored — secrets must never be committed.
 - The session is a signed JWT cookie; no DB is required for this demo.
 - The `role` is currently hard-coded to `USER` in the JWT callback for demo simplicity; in a real app it would come from a database.
+
+## Demo evidence
+
+Screenshots are available in the `docs/screenshots` folder:
+
+- Home page with Google sign-in
+- Google OAuth login flow
+- Protected dashboard after login
+- Protected `/api/profile` response
+
+## Live demo
+
+Demo URL: https://oauth-login-integration-demo-w8vx.vercel.app
