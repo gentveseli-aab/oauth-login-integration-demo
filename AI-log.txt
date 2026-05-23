@@ -1,0 +1,19 @@
+AI usage log
+============
+
+ChatGPT and Claude (Anthropic) were used as coding assistants during the
+planning and implementation of this project (Topic 45 — OAuth Login
+Integration Demo).
+
+Specifically, AI assistance was used for:
+- Planning the file/folder structure for a Next.js App Router + Auth.js v5
+  Google OAuth demo.
+- Drafting the initial `auth.ts` configuration (Google provider, JWT/session
+  callbacks for the `role` field).
+- Drafting the home page, protected dashboard page, and protected
+  `/api/profile` route handler.
+- Drafting the README (environment variables, Google Cloud Console setup,
+  deployment notes).
+
+All AI-generated code was reviewed, edited and tested by the student before
+being committed. No secrets were ever shared with the AI assistants.
